@@ -47,15 +47,15 @@ const Home: NextPage = () => {
         </h1>
 
         <p className={styles.description}>
-          Our Games. {' '}
+          Our Games. 
           
         </p>
 
         <div className={styles.grid} >
-        <h2>Orkki pely &rarr;</h2>
-            <p></p>
-          <a href="https://orkkypely.offensivegames.dy.fi/"  >
-            <img src="peli.png" alt="peli" className={styles.card} />
+        <h2>Orkki peli &rarr;</h2>
+            
+          <a href="https://orkkypely.offensivegames.dy.fi/">
+            <Image src="/peli.png" alt="peli" className={styles.card} width={600} height={200} />
             
           </a>
 
@@ -65,13 +65,13 @@ const Home: NextPage = () => {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://bevyengine.org/"
           target="_blank"
           rel="noopener noreferrer"
         >
           Powered by{' '}
           <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+            <Image src="/bevy.png" alt="bevy Logo" width={72} height={16} />
           </span>
         </a>
       </footer>
