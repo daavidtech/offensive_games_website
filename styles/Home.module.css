@@ -1,3 +1,56 @@
+
+
+
+.header {
+  height: 100px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+  overflow: visible;
+  
+
+}
+
+
+
+.nav{
+  background-color: #000409;
+  color: #fafafa;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 200%;
+  font: 400 16px/26px 'DIN Next W01',Helvetica,Arial,sans-serif;
+}
+
+
+
+.nav ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  
+  
+}
+
+.nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+
+}
+
+.nav li.active{
+  background-color: #0070f3;
+
+}
+
+.nav li:hover{
+  background-color: #36be93;
+}
+
 .container {
   padding: 0 2rem;
 }
